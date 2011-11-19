@@ -1,0 +1,440 @@
+Tue Dec 20 01:03:52 MSK 2005 : run on 1 processors 1000x1000 matrix
+./run_4_tests.sh 1 ../matr_1000.in
+run #1
+/usr/local/bin/mpirun -np 1 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 3.323366 sec
+Time to scatter matrix to all processors: 0.027106 sec
+Time to solve equation: 0.515795 sec
+run #2
+/usr/local/bin/mpirun -np 1 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.034464 sec
+Time to scatter matrix to all processors: 0.028846 sec
+Time to solve equation: 0.639419 sec
+run #3
+/usr/local/bin/mpirun -np 1 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.025133 sec
+Time to scatter matrix to all processors: 0.030386 sec
+Time to solve equation: 0.743630 sec
+run #4
+/usr/local/bin/mpirun -np 1 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.142704 sec
+Time to scatter matrix to all processors: 0.030377 sec
+Time to solve equation: 0.580853 sec
+Tue Dec 20 01:04:02 MSK 2005 : run on 2 processors 1000x1000 matrix
+./run_4_tests.sh 2 ../matr_1000.in
+run #1
+/usr/local/bin/mpirun -np 2 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.125105 sec
+Time to scatter matrix to all processors: 0.689503 sec
+Time to solve equation: 0.314096 sec
+run #2
+/usr/local/bin/mpirun -np 2 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.002382 sec
+Time to scatter matrix to all processors: 0.572989 sec
+Time to solve equation: 0.287651 sec
+run #3
+/usr/local/bin/mpirun -np 2 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 0.949518 sec
+Time to scatter matrix to all processors: 0.594249 sec
+Time to solve equation: 0.270411 sec
+run #4
+/usr/local/bin/mpirun -np 2 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.134167 sec
+Time to scatter matrix to all processors: 0.644245 sec
+Time to solve equation: 0.307317 sec
+Tue Dec 20 01:04:14 MSK 2005 : run on 3 processors 1000x1000 matrix
+./run_4_tests.sh 3 ../matr_1000.in
+run #1
+/usr/local/bin/mpirun -np 3 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.264032 sec
+Time to scatter matrix to all processors: 0.777455 sec
+Time to solve equation: 0.263721 sec
+run #2
+/usr/local/bin/mpirun -np 3 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.180899 sec
+Time to scatter matrix to all processors: 0.864420 sec
+Time to solve equation: 0.266079 sec
+run #3
+/usr/local/bin/mpirun -np 3 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.152990 sec
+Time to scatter matrix to all processors: 0.807751 sec
+Time to solve equation: 0.263865 sec
+run #4
+/usr/local/bin/mpirun -np 3 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.123916 sec
+Time to scatter matrix to all processors: 0.778981 sec
+Time to solve equation: 0.276723 sec
+Tue Dec 20 01:04:29 MSK 2005 : run on 4 processors 1000x1000 matrix
+./run_4_tests.sh 4 ../matr_1000.in
+run #1
+/usr/local/bin/mpirun -np 4 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.330146 sec
+Time to scatter matrix to all processors: 1.076447 sec
+Time to solve equation: 0.246124 sec
+run #2
+/usr/local/bin/mpirun -np 4 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.086250 sec
+Time to scatter matrix to all processors: 0.891261 sec
+Time to solve equation: 0.254544 sec
+run #3
+/usr/local/bin/mpirun -np 4 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.020748 sec
+Time to scatter matrix to all processors: 0.948855 sec
+Time to solve equation: 0.227888 sec
+run #4
+/usr/local/bin/mpirun -np 4 -stdin ../matr_1000.in ./jacobi
+Time to input matrix: 1.138387 sec
+Time to scatter matrix to all processors: 0.999633 sec
+Time to solve equation: 0.245504 sec
+Tue Dec 20 01:04:49 MSK 2005 : run on 1 processors 2000x2000 matrix
+./run_4_tests.sh 1 ../matr_2000.in
+run #1
+/usr/local/bin/mpirun -np 1 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 13.126973 sec
+Time to scatter matrix to all processors: 4.954815 sec
+Time to solve equation: 2.625906 sec
+run #2
+/usr/local/bin/mpirun -np 1 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 9.573033 sec
+Time to scatter matrix to all processors: 0.161913 sec
+Time to solve equation: 2.371710 sec
+run #3
+/usr/local/bin/mpirun -np 1 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 5.146114 sec
+Time to scatter matrix to all processors: 0.141292 sec
+Time to solve equation: 2.370241 sec
+run #4
+/usr/local/bin/mpirun -np 1 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 5.352255 sec
+Time to scatter matrix to all processors: 0.124529 sec
+Time to solve equation: 2.138707 sec
+Tue Dec 20 01:05:39 MSK 2005 : run on 2 processors 2000x2000 matrix
+./run_4_tests.sh 2 ../matr_2000.in
+run #1
+/usr/local/bin/mpirun -np 2 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 3.945434 sec
+Time to scatter matrix to all processors: 2.580035 sec
+Time to solve equation: 1.004106 sec
+run #2
+/usr/local/bin/mpirun -np 2 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 4.132441 sec
+Time to scatter matrix to all processors: 2.456835 sec
+Time to solve equation: 1.115049 sec
+run #3
+/usr/local/bin/mpirun -np 2 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 3.788661 sec
+Time to scatter matrix to all processors: 2.563925 sec
+Time to solve equation: 1.116259 sec
+run #4
+/usr/local/bin/mpirun -np 2 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 4.884828 sec
+Time to scatter matrix to all processors: 2.871830 sec
+Time to solve equation: 1.174926 sec
+Tue Dec 20 01:06:15 MSK 2005 : run on 3 processors 2000x2000 matrix
+./run_4_tests.sh 3 ../matr_2000.in
+run #1
+/usr/local/bin/mpirun -np 3 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 4.780069 sec
+Time to scatter matrix to all processors: 3.333399 sec
+Time to solve equation: 0.842226 sec
+run #2
+/usr/local/bin/mpirun -np 3 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 5.149242 sec
+Time to scatter matrix to all processors: 3.480872 sec
+Time to solve equation: 0.967557 sec
+run #3
+/usr/local/bin/mpirun -np 3 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 4.694378 sec
+Time to scatter matrix to all processors: 3.206520 sec
+Time to solve equation: 0.790186 sec
+run #4
+/usr/local/bin/mpirun -np 3 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 4.136815 sec
+Time to scatter matrix to all processors: 2.807885 sec
+Time to solve equation: 0.783262 sec
+Tue Dec 20 01:06:57 MSK 2005 : run on 4 processors 2000x2000 matrix
+./run_4_tests.sh 4 ../matr_2000.in
+run #1
+/usr/local/bin/mpirun -np 4 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 4.112292 sec
+Time to scatter matrix to all processors: 3.418763 sec
+Time to solve equation: 0.658930 sec
+run #2
+/usr/local/bin/mpirun -np 4 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 4.939911 sec
+Time to scatter matrix to all processors: 4.211841 sec
+Time to solve equation: 0.742739 sec
+run #3
+/usr/local/bin/mpirun -np 4 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 4.915732 sec
+Time to scatter matrix to all processors: 4.283580 sec
+Time to solve equation: 0.722143 sec
+run #4
+/usr/local/bin/mpirun -np 4 -stdin ../matr_2000.in ./jacobi
+Time to input matrix: 5.105505 sec
+Time to scatter matrix to all processors: 4.325469 sec
+Time to solve equation: 1.070676 sec
+Tue Dec 20 01:07:45 MSK 2005 : run on 1 processors 3000x3000 matrix
+./run_4_tests.sh 1 ../matr_3000.in
+run #1
+/usr/local/bin/mpirun -np 1 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 30.792816 sec
+Time to scatter matrix to all processors: 8.688885 sec
+Time to solve equation: 4.677351 sec
+run #2
+/usr/local/bin/mpirun -np 1 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 26.664718 sec
+Time to scatter matrix to all processors: 0.351717 sec
+Time to solve equation: 4.621807 sec
+run #3
+/usr/local/bin/mpirun -np 1 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 31.424703 sec
+Time to scatter matrix to all processors: 0.463604 sec
+Time to solve equation: 5.706507 sec
+run #4
+/usr/local/bin/mpirun -np 1 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 30.381772 sec
+Time to scatter matrix to all processors: 0.360055 sec
+Time to solve equation: 4.222266 sec
+Tue Dec 20 01:10:16 MSK 2005 : run on 2 processors 3000x3000 matrix
+./run_4_tests.sh 2 ../matr_3000.in
+run #1
+/usr/local/bin/mpirun -np 2 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 24.735606 sec
+Time to scatter matrix to all processors: 6.387092 sec
+Time to solve equation: 2.560573 sec
+run #2
+/usr/local/bin/mpirun -np 2 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 21.311316 sec
+Time to scatter matrix to all processors: 5.952479 sec
+Time to solve equation: 2.418880 sec
+run #3
+/usr/local/bin/mpirun -np 2 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 19.865362 sec
+Time to scatter matrix to all processors: 4.483778 sec
+Time to solve equation: 1.466724 sec
+run #4
+/usr/local/bin/mpirun -np 2 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 15.165421 sec
+Time to scatter matrix to all processors: 4.432454 sec
+Time to solve equation: 1.664369 sec
+Tue Dec 20 01:12:14 MSK 2005 : run on 3 processors 3000x3000 matrix
+./run_4_tests.sh 3 ../matr_3000.in
+run #1
+/usr/local/bin/mpirun -np 3 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 17.941100 sec
+Time to scatter matrix to all processors: 5.794511 sec
+Time to solve equation: 1.332687 sec
+run #2
+/usr/local/bin/mpirun -np 3 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 18.920989 sec
+Time to scatter matrix to all processors: 5.262218 sec
+Time to solve equation: 1.320212 sec
+run #3
+/usr/local/bin/mpirun -np 3 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 23.849557 sec
+Time to scatter matrix to all processors: 6.553628 sec
+Time to solve equation: 1.811276 sec
+run #4
+/usr/local/bin/mpirun -np 3 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 25.405794 sec
+Time to scatter matrix to all processors: 7.835735 sec
+Time to solve equation: 2.199921 sec
+Tue Dec 20 01:14:25 MSK 2005 : run on 4 processors 3000x3000 matrix
+./run_4_tests.sh 4 ../matr_3000.in
+run #1
+/usr/local/bin/mpirun -np 4 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 31.018628 sec
+Time to scatter matrix to all processors: 9.386382 sec
+Time to solve equation: 1.802884 sec
+run #2
+/usr/local/bin/mpirun -np 4 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 29.420532 sec
+Time to scatter matrix to all processors: 9.677841 sec
+Time to solve equation: 1.634009 sec
+run #3
+/usr/local/bin/mpirun -np 4 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 31.000089 sec
+Time to scatter matrix to all processors: 10.185559 sec
+Time to solve equation: 1.774516 sec
+run #4
+/usr/local/bin/mpirun -np 4 -stdin ../matr_3000.in ./jacobi
+Time to input matrix: 31.802502 sec
+Time to scatter matrix to all processors: 8.312034 sec
+Time to solve equation: 1.654190 sec
+Tue Dec 20 01:17:26 MSK 2005 : run on 1 processors 4000x4000 matrix
+./run_4_tests.sh 1 ../matr_4000.in
+run #1
+/usr/local/bin/mpirun -np 1 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 59.461992 sec
+Time to scatter matrix to all processors: 46.472921 sec
+Time to solve equation: 76.217177 sec
+run #2
+/usr/local/bin/mpirun -np 1 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 54.008538 sec
+Time to scatter matrix to all processors: 7.106191 sec
+Time to solve equation: 7.565586 sec
+run #3
+/usr/local/bin/mpirun -np 1 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 51.121597 sec
+Time to scatter matrix to all processors: 7.363441 sec
+Time to solve equation: 6.914186 sec
+run #4
+/usr/local/bin/mpirun -np 1 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 46.217385 sec
+Time to scatter matrix to all processors: 5.352707 sec
+Time to solve equation: 9.360702 sec
+Tue Dec 20 01:23:48 MSK 2005 : run on 2 processors 4000x4000 matrix
+./run_4_tests.sh 2 ../matr_4000.in
+run #1
+/usr/local/bin/mpirun -np 2 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 45.729688 sec
+Time to scatter matrix to all processors: 9.163711 sec
+Time to solve equation: 3.436029 sec
+run #2
+/usr/local/bin/mpirun -np 2 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 44.242986 sec
+Time to scatter matrix to all processors: 9.875643 sec
+Time to solve equation: 3.472720 sec
+run #3
+/usr/local/bin/mpirun -np 2 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 39.449720 sec
+Time to scatter matrix to all processors: 9.374144 sec
+Time to solve equation: 3.430064 sec
+run #4
+/usr/local/bin/mpirun -np 2 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 38.756544 sec
+Time to scatter matrix to all processors: 8.850439 sec
+Time to solve equation: 3.342401 sec
+Tue Dec 20 01:27:36 MSK 2005 : run on 3 processors 4000x4000 matrix
+./run_4_tests.sh 3 ../matr_4000.in
+run #1
+/usr/local/bin/mpirun -np 3 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 38.663609 sec
+Time to scatter matrix to all processors: 10.120639 sec
+Time to solve equation: 2.296771 sec
+run #2
+/usr/local/bin/mpirun -np 3 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 39.588310 sec
+Time to scatter matrix to all processors: 10.634639 sec
+Time to solve equation: 2.378939 sec
+run #3
+/usr/local/bin/mpirun -np 3 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 42.511870 sec
+Time to scatter matrix to all processors: 10.808427 sec
+Time to solve equation: 2.444564 sec
+run #4
+/usr/local/bin/mpirun -np 3 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 40.994025 sec
+Time to scatter matrix to all processors: 11.119993 sec
+Time to solve equation: 2.511045 sec
+Tue Dec 20 01:31:19 MSK 2005 : run on 4 processors 4000x4000 matrix
+./run_4_tests.sh 4 ../matr_4000.in
+run #1
+/usr/local/bin/mpirun -np 4 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 41.354223 sec
+Time to scatter matrix to all processors: 12.664142 sec
+Time to solve equation: 2.201924 sec
+run #2
+/usr/local/bin/mpirun -np 4 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 41.501093 sec
+Time to scatter matrix to all processors: 13.631024 sec
+Time to solve equation: 2.202924 sec
+run #3
+/usr/local/bin/mpirun -np 4 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 39.534271 sec
+Time to scatter matrix to all processors: 12.604720 sec
+Time to solve equation: 2.210655 sec
+run #4
+/usr/local/bin/mpirun -np 4 -stdin ../matr_4000.in ./jacobi
+Time to input matrix: 30.536806 sec
+Time to scatter matrix to all processors: 11.926179 sec
+Time to solve equation: 2.221185 sec
+Tue Dec 20 01:35:04 MSK 2005 : run on 1 processors 5000x5000 matrix
+./run_4_tests.sh 1 ../matr_5000.in
+run #1
+/usr/local/bin/mpirun -np 1 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 60.412541 sec
+Time to scatter matrix to all processors: 49.754395 sec
+Time to solve equation: 9.289642 sec
+run #2
+/usr/local/bin/mpirun -np 1 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 55.146357 sec
+Time to scatter matrix to all processors: 9.793631 sec
+Time to solve equation: 8.830078 sec
+run #3
+/usr/local/bin/mpirun -np 1 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 56.256143 sec
+Time to scatter matrix to all processors: 1.022367 sec
+Time to solve equation: 9.081739 sec
+run #4
+/usr/local/bin/mpirun -np 1 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 58.619870 sec
+Time to scatter matrix to all processors: 7.828489 sec
+Time to solve equation: 9.271835 sec
+Tue Dec 20 01:40:47 MSK 2005 : run on 2 processors 5000x5000 matrix
+./run_4_tests.sh 2 ../matr_5000.in
+run #1
+/usr/local/bin/mpirun -np 2 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 57.725261 sec
+Time to scatter matrix to all processors: 13.253149 sec
+Time to solve equation: 5.041805 sec
+run #2
+/usr/local/bin/mpirun -np 2 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 59.366732 sec
+Time to scatter matrix to all processors: 13.873133 sec
+Time to solve equation: 5.752815 sec
+run #3
+/usr/local/bin/mpirun -np 2 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 59.002348 sec
+Time to scatter matrix to all processors: 12.929275 sec
+Time to solve equation: 5.754375 sec
+run #4
+/usr/local/bin/mpirun -np 2 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 56.752703 sec
+Time to scatter matrix to all processors: 12.871036 sec
+Time to solve equation: 4.815416 sec
+Tue Dec 20 01:46:03 MSK 2005 : run on 3 processors 5000x5000 matrix
+./run_4_tests.sh 3 ../matr_5000.in
+run #1
+/usr/local/bin/mpirun -np 3 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 55.613748 sec
+Time to scatter matrix to all processors: 15.048155 sec
+Time to solve equation: 3.296276 sec
+run #2
+/usr/local/bin/mpirun -np 3 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 56.604598 sec
+Time to scatter matrix to all processors: 16.314629 sec
+Time to solve equation: 3.375856 sec
+run #3
+/usr/local/bin/mpirun -np 3 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 55.439610 sec
+Time to scatter matrix to all processors: 15.498228 sec
+Time to solve equation: 3.271758 sec
+run #4
+/usr/local/bin/mpirun -np 3 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 55.784751 sec
+Time to scatter matrix to all processors: 14.287597 sec
+Time to solve equation: 3.122128 sec
+Tue Dec 20 01:51:09 MSK 2005 : run on 4 processors 5000x5000 matrix
+./run_4_tests.sh 4 ../matr_5000.in
+run #1
+/usr/local/bin/mpirun -np 4 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 54.056888 sec
+Time to scatter matrix to all processors: 18.448780 sec
+Time to solve equation: 3.548521 sec
+run #2
+/usr/local/bin/mpirun -np 4 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 54.492936 sec
+Time to scatter matrix to all processors: 18.451866 sec
+Time to solve equation: 3.513526 sec
+run #3
+/usr/local/bin/mpirun -np 4 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 53.593521 sec
+Time to scatter matrix to all processors: 18.434389 sec
+Time to solve equation: 3.288251 sec
+run #4
+/usr/local/bin/mpirun -np 4 -stdin ../matr_5000.in ./jacobi
+Time to input matrix: 53.531586 sec
+Time to scatter matrix to all processors: 19.550216 sec
+Time to solve equation: 4.219872 sec
